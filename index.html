@@ -11,7 +11,7 @@
         <body>
             <div>
             <div class="mid">
-            <div class="top_bar" id="nav">
+            <div class="top_bar animated fadeInDown" id="nav">
                 <h2 class="title_text main_title">Logo</h2>
                 <h2 class="title_text" id="AlreadyOneofOurClients"><a>Already a Client?</a></h2>
             </div>
@@ -25,17 +25,18 @@
                 </p>
             </div>
             <div class="right-info">
-                    <h2 class="animated fadeInLeft">Title:</h2>
-                    <p class="animated fadeinLeft">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    <h2 class="animated fadeInRight">Title:</h2>
+                    <p class="animated fadeInRight">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi Sed ut perspiciatis unde omnis iste natus 
                           inventore veritatis totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi Sed inventore veritatis 
                     </p>
                     </div>
             
             <div class="graph-holder">
-                <img class="animated fadeInLeft" src="images/graph.png">
+                <img class="animated fadeInUp graphimg" src="images/graph.png">
+                <img src="images/arrow.png" class="arrow animated fadeInRight">
             </div>
-          <div class="membership_holder">
+          <divclass="membership_holder">
               <div class="membership" id="mem1">
                   <div class="memprice"><h2>£10/pm<h2></div>
                   <div class="btn-circle "></div>
@@ -63,6 +64,9 @@
             }
             prevScrollpos = currentScrollPos;
             }
+            AOS.init({
+                duration: 1200,
+            })      
         </script>
         </body>
     </html>
