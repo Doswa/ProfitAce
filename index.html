@@ -1,0 +1,68 @@
+<DOCTYPE HTML>
+    <html lang="eg">
+        <head>
+            <link rel="stylesheet" href="css/style.css" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+            <link rel="stylesheet" href="css/lib.css">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
+            <title>ProfitAce</title>
+        </head>
+        <body>
+            <div>
+            <div class="mid">
+            <div class="top_bar" id="nav">
+                <h2 class="title_text main_title">Logo</h2>
+                <h2 class="title_text" id="AlreadyOneofOurClients"><a>Already a Client?</a></h2>
+            </div>
+            <div class="top-info">
+                <div class="left-info">
+                <h2 class="animated fadeInLeft">Title:</h2>
+                <p class="animated fadeinLeft">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                     totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi Sed ut perspiciatis unde omnis iste natus 
+                      inventore veritatis totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi Sed ut perspiciatis unde omnis iste natus 
+                      inventore veritatis 
+                </p>
+            </div>
+            <div class="right-info">
+                    <h2 class="animated fadeInLeft">Title:</h2>
+                    <p class="animated fadeinLeft">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                         totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi Sed ut perspiciatis unde omnis iste natus 
+                          inventore veritatis totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi Sed inventore veritatis 
+                    </p>
+                    </div>
+            
+            <div class="graph-holder">
+                <img class="animated fadeInLeft" src="images/graph.png">
+            </div>
+          <div class="membership_holder">
+              <div class="membership" id="mem1">
+                  <div class="memprice"><h2>£10/pm<h2></div>
+                  <div class="btn-circle "></div>
+              </div>
+              <div class="membership" id="mem2">
+                    <div class="memprice"><h2>£20/pm<h2></div>
+                    <div class="btn-circle"></div>
+              </div>
+              <div class="membership" id="mem3">
+                    <div class="memprice"><h2>£30/pm<h2></div>
+                    <div class="btn-circle"></div>
+              </div>
+          </div>
+        </div>
+        </div>
+        <div class="bottom-bar"></div>
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("nav").style.top = "0";
+            } else {
+                document.getElementById("nav").style.top = "-55px";
+            }
+            prevScrollpos = currentScrollPos;
+            }
+        </script>
+        </body>
+    </html>
